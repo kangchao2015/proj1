@@ -1,0 +1,13 @@
+[ 2018-09-15T13:10:49+08:00 ][ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ 2018-09-15T13:10:49+08:00 ][ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.010473s ]
+[ 2018-09-15T13:10:52+08:00 ][ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ 2018-09-15T13:10:52+08:00 ][ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.013570s ]
+[ 2018-09-15T13:12:38+08:00 ][ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ 2018-09-15T13:12:38+08:00 ][ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.009015s ]
+[ 2018-09-15T13:12:38+08:00 ][ error ] [0]Fatal error: Class 'think\facade\Env' not found[C:\phpStudy\PHPTutorial\WWW\projs\simplewind\vendor\topthink\think-migration\src\command\Migrate.php:34]
+[ 2018-09-15T13:12:46+08:00 ][ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ 2018-09-15T13:12:46+08:00 ][ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.009745s ]
