@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ThinkCMF 5.0.180901 正式版
 ===============
 
@@ -474,3 +475,7 @@ https://www.kancloud.cn/thinkcmf/doc/327443
 * 完善前台模板
 
 
+=======
+# proj1
+用基于thinkphp5的thinkcmf搭建一个企业站
+>>>>>>> 4eb49a2d4eb3f8abdeffb2d5ac2ac42015996218
