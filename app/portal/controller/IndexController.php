@@ -11,11 +11,24 @@
 namespace app\portal\controller;
 
 use cmf\controller\HomeBaseController;
-use think\View as V;
-use think\request as R;
+use think\View as 		V;
+use think\request as 	R;
+use think\Db as 		D;
 
 class IndexController extends HomeBaseController
 {
+
+
+	public function aaa(){
+
+
+		$ret = D::name("nav_menu")->select();
+		$ret = db("nav_menu")->select();
+		$ret = db("nav_menu")->name("id");
+		$ret = D::getTableInfo("cmf_nav_menu");
+		dump($ret);
+
+	}
 
 	public function  show(R $request){
 

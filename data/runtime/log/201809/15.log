@@ -9658,3 +9658,468 @@
 [ sql ] [ DB ] CONNECT:[ UseTime:0.001831s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
 [ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.021869s ]
 [ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001239s ]
+---------------------------------------------------------------
+[ 2018-09-15T14:08:17+08:00 ] 127.0.0.1 GET /index.php/portal/index/show
+[ info ] www.kangchao.com/index.php/portal/index/show [运行时间：0.077652s][吞吐率：12.88req/s] [内存消耗：1,594.08kb] [文件加载：54]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.004892s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.005593s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.001054s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '('[C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php:25]
+---------------------------------------------------------------
+[ 2018-09-15T14:09:40+08:00 ] 127.0.0.1 GET /index.php/portal/index/show
+[ info ] www.kangchao.com/index.php/portal/index/show [运行时间：0.104193s][吞吐率：9.60req/s] [内存消耗：2,491.50kb] [文件加载：68]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.003935s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.005287s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.001083s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.003933s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->show[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002020s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.016983s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001184s ]
+---------------------------------------------------------------
+[ 2018-09-15T14:09:47+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.144046s][吞吐率：6.94req/s] [内存消耗：2,478.90kb] [文件加载：73]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.003918s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.005533s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000892s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.003937s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001501s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.017228s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001149s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thinkcmf5.cmf_cmf_nav_menu' doesn't exist[C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-09-15T14:09:58+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.115837s][吞吐率：8.63req/s] [内存消耗：2,497.13kb] [文件加载：68]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.005720s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.004432s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000892s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.003525s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011370s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.014248s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001103s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.015515s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.001216s ]
+---------------------------------------------------------------
+[ 2018-09-15T14:10:10+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.121732s][吞吐率：8.21req/s] [内存消耗：2,497.22kb] [文件加载：68]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.004131s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.005757s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000894s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.004026s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001847s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.015109s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.019688s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.001504s ]
+---------------------------------------------------------------
+[ 2018-09-15T14:23:01+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.140225s][吞吐率：7.13req/s] [内存消耗：2,498.06kb] [文件加载：68]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.006547s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.009141s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.001494s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.003825s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001411s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.020768s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.017794s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000715s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000564s ]
+---------------------------------------------------------------
+[ 2018-09-15T14:23:54+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.146803s][吞吐率：6.81req/s] [内存消耗：2,514.70kb] [文件加载：71]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.004020s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.004385s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000914s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.003855s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001338s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.020425s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.014664s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000991s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000829s ]
+[ error ] [0]method not exist:think\db\Query->toArray[C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\library\think\db\Query.php:96]
+---------------------------------------------------------------
+[ 2018-09-15T14:24:03+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.114318s][吞吐率：8.75req/s] [内存消耗：2,504.47kb] [文件加载：68]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.005435s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.004508s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.000899s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.003759s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001492s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.019404s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.018476s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000765s ]
+---------------------------------------------------------------
+[ 2018-09-15T14:26:20+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.155081s][吞吐率：6.45req/s] [内存消耗：2,483.99kb] [文件加载：73]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.004478s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.004863s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.002260s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.004198s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001550s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.020705s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.001419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.014820s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000925s ]
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'thinkcmf5.nav_menu' doesn't exist[C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-09-15T14:26:32+08:00 ] 127.0.0.1 GET /index.php/portal/index/aaa
+[ info ] www.kangchao.com/index.php/portal/index/aaa [运行时间：0.131475s][吞吐率：7.61req/s] [内存消耗：2,499.28kb] [文件加载：68]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitHookBehavior @app_init [ RunTime:0.004011s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\simplewind\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'portal',
+    1 => 'index',
+    2 => 'aaa',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; admin_username=admin; PHPSESSID=9ouqda5hn0kdctu4p4bhpme0rk; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.81 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => 'www.kangchao.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../simplewind/cmf/lang\zh-cn.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/admin\lang\zh-cn\common.php
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\common.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\LangBehavior @app_begin [ RunTime:0.004659s ]
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\InitAppHookBehavior @module_init [ RunTime:0.001414s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] C:\phpStudy\PHPTutorial\WWW\projs\public/../app/portal\lang\zh-cn\home.php
+[ info ] [ BEHAVIOR ] Run cmf\behavior\HomeLangBehavior @home_init [ RunTime:0.004046s ]
+[ info ] [ RUN ] app\portal\controller\IndexController->aaa[ C:\phpStudy\PHPTutorial\WWW\projs\app\portal\controller\IndexController.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002199s ] mysql:host=127.0.0.1;port=3306;dbname=thinkcmf5;charset=utf8mb4
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_option` [ RunTime:0.022398s ]
+[ sql ] [ SQL ] SELECT `option_value` FROM `cmf_option` WHERE  `option_name` = 'cdn_settings' LIMIT 1 [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `cmf_nav_menu` [ RunTime:0.016269s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SELECT * FROM `cmf_nav_menu` [ RunTime:0.000898s ]
